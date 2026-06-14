@@ -1,0 +1,22 @@
+server:
+  port: 2333
+
+lavalink:
+  server:
+    password: "hylous1234@lava"
+
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    clients:
+      - MUSIC
+      - ANDROID
+      - WEB
+      - TVHTML5EMBEDDED
+
+logging:
+  level:
+    root: INFO
+    lavalink: INFO
