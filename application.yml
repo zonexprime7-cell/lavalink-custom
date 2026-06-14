@@ -12,7 +12,11 @@ plugins:
     allowDirectVideoIds: true
     clients:
       - MUSIC
-      - WEB
-      - WEBEMBEDDED
       - ANDROID
+      - WEB
       - TVHTML5EMBEDDED
+
+logging:
+  level:
+    root: INFO
+    lavalink: INFO
