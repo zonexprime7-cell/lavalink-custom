@@ -1,0 +1,31 @@
+server:
+  port: 2333
+
+lavalink:
+  server:
+    password: "hylous1234@lava"
+    sources:
+      youtube: true
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      http: true
+      local: false
+
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    clients:
+      - MUSIC
+      - WEB
+      - WEBEMBEDDED
+      - ANDROID
+      - TVHTML5EMBEDDED
+
+logging:
+  level:
+    root: INFO
+    lavalink: INFO
